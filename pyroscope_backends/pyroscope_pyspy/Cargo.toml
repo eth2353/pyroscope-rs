@@ -15,7 +15,7 @@ readme = "README.md"
 
 [dependencies]
 #py-spy = "0.4.0"
-py-spy = { git = "https://github.com/eth2353/py-spy", rev = "97ddb1c1e7be90aed840a007fc325f3980f34c3b" }
+py-spy = { git = "https://github.com/eth2353/py-spy", rev = "4878354ba20551dbd7f59f7a44d5dbce1b623552" }
 pyroscope = { version = "0.5.7", path = "../../" , default-features = false }
 thiserror ="1.0"
 log = "0.4"
