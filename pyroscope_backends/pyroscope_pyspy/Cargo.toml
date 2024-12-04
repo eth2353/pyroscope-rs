@@ -14,7 +14,8 @@ repository = "https://github.com/pyroscope-io/pyroscope-rs"
 readme = "README.md"
 
 [dependencies]
-py-spy = "0.4.0"
+#py-spy = "0.4.0"
+py-spy = { git = "https://github.com/eth2353/py-spy", branch = "fix-panic" }
 pyroscope = { version = "0.5.7", path = "../../" , default-features = false }
 thiserror ="1.0"
 log = "0.4"
